@@ -63,6 +63,9 @@ case $TC in
     'moonfly' )
         TC='#E95678'
         ;;
+    'endeavor' )
+        TC='#DA70D6'
+        ;;
     'default' ) # Useful when your term changes colour dynamically (e.g. pywal)
         TC='colour3'
         ;;
@@ -70,9 +73,11 @@ esac
 
 G01=#080808 #232
 G02=#121212 #233
-G03=#1c1c1c #234
+# G03=#1c1c1c #234
+G03=#080808 #234
 # G04=#262626 #235
-G04=#1A1C23 #235
+# G04=#1A1C23 #235
+G04=#080808 #235
 G05=#303030 #236
 G06=#3a3a3a #237
 G07=#444444 #238

@@ -1,0 +1,50 @@
+import = []
+
+[shell]
+program = "/usr/bin/tmux"
+args = ["-u"]
+
+[env]
+
+[window]
+padding = { x = 15, y = 15}
+decorations = "None"
+startup_mode = "Maximized"
+
+[scrolling]
+history = 100000
+multiplier = 2
+
+[font]
+normal = {family = "JetBrainsMono NFM", style = "Light"}
+bold = {family = "JetBrainsMono NFM", style = "Regular"}
+size = 15
+
+[colors]
+cursor = { "cursor" = "#cccccc" }
+[colors.primary]
+background = "#080808"
+
+[colors.normal]
+black = "#3d335c"
+red = "#da0f7a"
+green = "#00f58f"
+yellow = "#ffc65c"
+blue = "#008bd7"
+magenta = "#da70d6"
+cyan = "#00ded3"
+white = "#b5bab5"
+
+[colors.bright]
+black = "#483c6c"
+red = "#ff217c"
+green = "#21ffa2"
+yellow = "#ffd486"
+blue = "#0c86f0"
+magenta = "#e69ee4"
+cyan = "#0cffe1"
+white = "#d5d8d5"
+
+[cursor]
+style = { shape = "Block"}
+
