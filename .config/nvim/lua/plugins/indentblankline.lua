@@ -3,5 +3,8 @@ require("ibl").overwrite {
         filetypes = {
             "dashboard"
         }
+    },
+    scope = {
+        enabled = false
     }
 }

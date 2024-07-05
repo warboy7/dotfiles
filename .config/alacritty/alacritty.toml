@@ -10,18 +10,21 @@ args = ["-u"]
 padding = { x = 15, y = 15}
 decorations = "None"
 startup_mode = "Maximized"
+blur = true
+opacity = 0.7
 
 [scrolling]
 history = 100000
 multiplier = 2
 
 [font]
-normal = {family = "JetBrainsMono NFM", style = "Light"}
+normal = {family = "JetBrainsMono NFM", style = "Regular"}
 bold = {family = "JetBrainsMono NFM", style = "Regular"}
-size = 15
+size = 16
 
 [colors]
 cursor = { "cursor" = "#cccccc" }
+transparent_background_colors = false
 [colors.primary]
 background = "#080808"
 

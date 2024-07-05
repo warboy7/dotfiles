@@ -19,8 +19,8 @@ tmux_set() {
 }
 
 # Options
-right_arrow_icon=$(tmux_get '@tmux_power_right_arrow_icon' ' ')
-left_arrow_icon=$(tmux_get '@tmux_power_left_arrow_icon' ' ')
+right_arrow_icon=$(tmux_get '@tmux_power_right_arrow_icon' '')
+left_arrow_icon=$(tmux_get '@tmux_power_left_arrow_icon' '')
 upload_speed_icon=$(tmux_get '@tmux_power_upload_speed_icon' '')
 download_speed_icon=$(tmux_get '@tmux_power_download_speed_icon' '')
 session_icon="$(tmux_get '@tmux_power_session_icon' '')"
@@ -73,10 +73,7 @@ esac
 
 G01=#080808 #232
 G02=#121212 #233
-# G03=#1c1c1c #234
 G03=#080808 #234
-# G04=#262626 #235
-# G04=#1A1C23 #235
 G04=#080808 #235
 G05=#303030 #236
 G06=#3a3a3a #237
@@ -97,7 +94,7 @@ tmux_set status on
 
 # Basic status bar colors
 tmux_set status-fg "$FG"
-tmux_set status-bg "$BG"
+tmux_set status-style bg=default
 tmux_set status-attr none
 
 # tmux-prefix-highlight

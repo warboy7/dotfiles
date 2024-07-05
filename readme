@@ -2,6 +2,6 @@ dotfiles
 --------
 
 dotfiles/configuration files for things i use:
-- kitty
+- kitty/alacritty
 - tmux
 - neovim

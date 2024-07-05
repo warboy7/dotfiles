@@ -5,6 +5,9 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+-- color globals
+vim.g.moonflyTransparent = true
+
 -- fix indents
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
@@ -70,14 +73,14 @@ require('lazy').setup({
 		config = function () 
 			local configs = require("nvim-treesitter.configs")
 
-			configs.setup({
-				ensure_installed = {"c", "lua", "python", "rust"},
-				sync_install = false,
-			highlight = { enable = true },
-				indent = { enable = true },  
-			})
-		end,
-	},
+            configs.setup({
+                ensure_installed = {"c", "lua", "python", "rust"},
+                sync_install = false,
+                highlight = { enable = true },
+                indent = { enable = true },
+            })
+        end,
+    },
 	-- Telescope
 	{
 		{
