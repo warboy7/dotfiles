@@ -1,0 +1,9 @@
+[
+  {
+    "context": "Editor && (showing_code_actions || showing_completions) ",
+    "bindings": {
+      "tab": "editor::ContextMenuNext",
+      "shift-tab": "editor::ContextMenuPrev"
+    }
+  }
+]
