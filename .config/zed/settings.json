@@ -16,14 +16,14 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Andromeda"
+    "dark": "Ayu Dark Modified"
   },
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_features": {
     "calt": true
   },
   "buffer_font_size": 18,
-  "buffer_font_weight": 400,
+  "buffer_font_weight": 300,
   "format_on_save": "off",
   "inlay_hints": {
     "enabled": true,

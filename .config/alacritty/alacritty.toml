@@ -20,7 +20,7 @@ multiplier = 2
 [font]
 normal = {family = "JetBrainsMono NFM", style = "Regular"}
 bold = {family = "JetBrainsMono NFM", style = "Regular"}
-size = 16
+size = 15
 
 [colors]
 cursor = { "cursor" = "#cccccc" }
