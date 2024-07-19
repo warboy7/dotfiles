@@ -5,6 +5,7 @@ dotfiles for things i use:
 - tmux
 - neovim
 - zed
+- zsh
 
 ```bash
 #simply clone and stow

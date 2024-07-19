@@ -2,7 +2,7 @@
 
 # Imports
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
-. "${ROOT_DIR}/lib/coreutils-compat.sh"
+# . "${ROOT_DIR}/lib/coreutils-compat.sh"
 
 # get value from tmux config
 SHOW_PATH=$(tmux show-option -gv @tokyo-night-tmux_show_path 2>/dev/null)
