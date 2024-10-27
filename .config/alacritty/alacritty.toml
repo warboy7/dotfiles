@@ -1,6 +1,4 @@
-import = []
-
-[shell]
+[terminal.shell]
 program = "/usr/bin/tmux"
 args = ["-u"]
 
@@ -11,22 +9,23 @@ padding = { x = 15, y = 15}
 decorations = "None"
 startup_mode = "Maximized"
 blur = true
-opacity = 0.7
+# opacity = 0.9
+opacity = 1
 
 [scrolling]
 history = 100000
 multiplier = 2
 
 [font]
-normal = {family = "JetBrainsMono NFM", style = "Regular"}
-bold = {family = "JetBrainsMono NFM", style = "Regular"}
-size = 16
+normal = {family = "JetBrainsMono NFM", style = "Medium"}
+size = 15
 
 [colors]
 cursor = { "cursor" = "#cccccc" }
 transparent_background_colors = false
 [colors.primary]
-background = "#080808"
+background = '#0a0c10'
+foreground = '#f0f3f6'
 
 [colors.normal]
 black = "#3d335c"
@@ -51,3 +50,7 @@ white = "#d5d8d5"
 [cursor]
 style = { shape = "Block"}
 
+[general]
+import = []
+
+[terminal]

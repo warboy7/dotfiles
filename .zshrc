@@ -71,3 +71,9 @@ eval "$(pyenv init -)"
 
 # alias
 source ~/.alias
+
+# tmux related stuff
+cd() {
+    builtin cd $1
+    tmux refresh-client -S
+}
