@@ -49,8 +49,3 @@ white = "#d5d8d5"
 
 [cursor]
 style = { shape = "Block"}
-
-[general]
-import = []
-
-[terminal]
