@@ -37,16 +37,16 @@ end
 
 
 local servers = {
-    clangd = {},
-    pyright = {},
-    rust_analyzer = {},
-    html = { filetypes = { 'html', 'twig', 'hbs'} },
-    lua_ls = {
-        Lua = {
-            workspace = { checkThirdParty = false },
-            telemetry = { enable = false },
-        },
-    },
+    -- clangd = {},
+    -- pyright = {},
+    -- rust_analyzer = {},
+    -- html = { filetypes = { 'html', 'twig', 'hbs'} },
+    -- lua_ls = {
+    --     Lua = {
+    --         workspace = { checkThirdParty = false },
+    --         telemetry = { enable = false },
+    --     },
+    -- },
 }
 
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
