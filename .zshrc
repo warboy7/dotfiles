@@ -3,7 +3,7 @@ autoload -Uz compinit
 compinit
 
 # prompt
-PROMPT="%F{blue}%~ %(?.%F{magenta}.%F{red}) "
+PROMPT="%F{cyan}%1~ %(?.%F{magenta}.%F{red}) "
 
 # plugins
 # autosuggestion
