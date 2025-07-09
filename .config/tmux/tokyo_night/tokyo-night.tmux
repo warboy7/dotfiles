@@ -55,7 +55,7 @@ current_path="#($SCRIPTS_PATH/path-widget.sh #{pane_current_path})"
 
 #+--- Bars LEFT ---+
 # Session name
-tmux set -g status-left "#[fg=${THEME[bblack]},bg=${THEME[blue]},bold] #{?client_prefix,p ,#[dim]󰣇 `hostname` }#[bold,nodim]#S "
+tmux set -g status-left "#[fg=${THEME[bblack]},bg=${THEME[blue]},bold] #{?client_prefix,p ,#[dim]󰣇 `hostname` }#[bold,nodim][#S] "
 
 #+--- Windows ---+
 # Focus
