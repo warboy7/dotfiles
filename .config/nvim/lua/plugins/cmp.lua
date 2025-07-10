@@ -35,7 +35,7 @@ return {
                     behavior = cmp.ConfirmBehavior.Replace,
                     select = true,
                 },
-                ['<Esc>'] = cmp.mapping.abort(),
+                -- ['<Esc>'] = cmp.mapping.abort(),
                 ['<Tab>'] = cmp.mapping(function(fallback)
                     if cmp.visible() then
                         cmp.select_next_item()

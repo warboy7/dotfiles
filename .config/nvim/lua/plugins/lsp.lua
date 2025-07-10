@@ -64,7 +64,8 @@ return {
             virtual_lines = {
                 current_line = true
             },
-            underline = false
+            underline = false,
+            -- update_in_insert = true
         })
 
         local capabilities = require('cmp_nvim_lsp').default_capabilities()
